@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  background-color: #f4f1f1;
+  min-height: 10vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5vw;               
+}
+
+body::-webkit-scrollbar-track {
+  background: #d3d3d3;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #808080;    
+  border-radius: 20px;      
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 6vw;
+  background-color: #AFCDEA;
+}
+
+.cabecalho-logo {
+  height: 12vw;
+}
+
+.cabecalho-menu-icone {
+  height: 2.2vw;
+}
+
+#divBusca{
+  background-color:#f4f1f1;
+  border-radius: 2vw;
+  width: 20vw;
+}
+
+#txtBusca{
+  background-color: transparent;
+  padding-left: 1vw;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+  border: none;
+  height: 2.5vw;
+  width: 20vw;
+}
+
+.dropbtn {
+  background-color: #AFCDEA;
+  height: 6vw;
+  padding: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.4vw;
+  color: #f4f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #AFCDEA;
+  width: 15vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2vw;
+  color: #f4f1f1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #a2cffc}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a2cffc;
+}
+
+.conteudo-primario-imagem {
+  padding-left: 250px;
+}
+
+#conteudo{
+  width: 1070px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #AFCDEA;
+}
+
+.dropbtn {
+  background-color: #AFCDEA;
+  padding: 16px;
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: #f4f1f1;
+  border: none;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #AFCDEA;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Cardo', serif;
+  color: #f4f1f1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #a2cffc}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a2cffc;
+}
+
+.conteudo-primario-imagem {
+  padding-left: 250px;
+}
+
+body {
+  background-color: #F4F1F1;
+  min-height: 100vh;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.equipe-titulo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.8vw;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.paragrafo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3vw;
+  text-align: justify;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap ;
+  align-items: center;
+  justify-content: center;
+  margin: 39px 200px;
+  margin-top: 5px;
+  margin-bottom: 53px;
+}
+.card {
+  width: 500px;
+  height: 200px;
+  margin: 25px;
+  background-color: #f4f1f1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-header {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 8%;
+  margin: 15px;
+  width: 150px;
+  transform: translateY(5px);
+}
+
+.card-body {
+  height: 170px;
+  padding: 15px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+.card-texto {
+  font-size: 16px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.card-nome {
+  font-size: 23px;
+  margin: 10px 0;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: -40px;
+  padding: 0;
+}
+
+.cor {
+  background-color: #AFCDEA;
+  color: white;
+}
+
+.alinha {
+  text-align: center;
+}
+
+.cor2 {
+  background-color: #FEC517;
+  height: 2vw;
+  align-items: center;
+}
+
+.last {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titulo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1vw;
+  color: #f4f1f1;
+  padding-bottom: 0.5vw;
+}
+
+.rodape-icone {
+  height: 2vw;
+}
+
+.texto {
+  font-size: 0.8vw;
+  font-family: 'Nunito', sans-serif;
+  color: #f4f1f1;
+}
+
+.container-fluid {
+  font-size: 0.8vw;
+  font-family: 'Nunito', sans-serif;
+  color: #f4f1f1;
+  padding-top: 0.5vw;
+}

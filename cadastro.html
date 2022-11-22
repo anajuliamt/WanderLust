@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Wanderlust</title>
+    <link rel="stylesheet" href="Cadastro.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img class="cabecalho-logo" src="imgs/wanderlustlogo.png" alt="Logo">
+        </a>
+
+        <div id="divBusca">
+          <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        </div>
+        
+        <nav class="cabecalho-menu">  
+            <a href="filtro.html"><img class="cabecalho-menu-icone" src="imgs/filtro.png" alt="Filtro"></a>
+            <a href="favoritos.html"><img class="cabecalho-menu-icone" src="imgs/favoritos.png" alt="Favoritos"></a>
+            <a href="login.html"><img class="cabecalho-menu-icone" src="imgs/login.png" alt="Login"></a>
+
+            <div class="dropdown">
+                <button class="dropbtn"> ☰ Menu</button>
+               <div class="dropdown-content">
+                   <a class="cabecalho-menu-item" href="index.html">Início</a>
+                   <a class="cabecalho-menu-item" href="destinos.html">Destinos</a>
+                   <a class="cabecalho-menu-item" href="equipe.html">Equipe</a>
+                   <a class="cabecalho-menu-item" href="ajuda.html">Ajuda</a>
+               </div>
+           </div>    
+        </nav>
+    </header>
+    <div class="container">
+    <section class="area-cadastro">
+        <h2>Cadastre-se</h2>
+        <div class="cadastro">
+                <div>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required="Preencha este campo.">
+                </div>
+            <br>
+                <div>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuário" required="Preencha este campo.">
+                </div>
+            <br>    
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email" required="Preencha este campo.">
+                </div>
+            <br>   
+                <div>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required="Preencha este campo.">
+                
+                </div>
+            <br>
+                <div>
+                    <input type="password" name="confirmsenha" id="confirmsenha" placeholder="Confirmar Senha" required="Preencha este campo.">
+                </div>
+                <br>
+                <form>
+                <button class="texto-botao" type="submit" id="butao" value="Cadastre-se">Cadastre-se</button>
+                </form>
+        </div>
+    </section>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Scrollbar*/
+
+body {
+  background-color: #f4f1f1;
+  min-height: 10vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5vw;               
+}
+
+body::-webkit-scrollbar-track {
+  background: #d3d3d3;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #808080;    
+  border-radius: 20px;      
+}
+
+/*Menu*/
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 6vw;
+  background-color: #AFCDEA;
+}
+
+.cabecalho-logo {
+  height: 12vw;
+}
+
+.cabecalho-menu-icone {
+  height: 2.2vw;
+}
+
+#divBusca{
+  background-color:#f4f1f1;
+  border-radius: 2vw;
+  width: 20vw;
+}
+
+#txtBusca{
+  background-color: transparent;
+  padding-left: 1vw;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+  border: none;
+  height: 2.5vw;
+  width: 20vw;
+}
+
+.dropbtn {
+  background-color: #AFCDEA;
+  height: 6vw;
+  padding: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.7vw;
+  color: #f4f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #AFCDEA;
+  width: 15vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.4vw;
+  color: #f4f1f1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #a2cffc}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a2cffc;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #a2cffc;
+}
+
+.conteudo {
+    margin-bottom: 5vw;
+}
+
+.conteudo-favoritos-titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4vw;
+    margin: 3vw 0vw 0vw 5vw;
+}
+
+.conteudo-favoritos-rio {
+    height: 11vw;
+    width: 60vw;
+    border-radius: 1vw;
+    background-color: #f4f1f1;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin: 2vw 0vw 0vw 20vw;
+}
+
+.conteudo-favoritos-rio-imagem {
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 0.5vw 1vw 0vw 0.5vw;
+}
+
+.conteudo-favoritos-titulo1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.conteudo-favoritos-informacoes {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1vw;
+    margin-left: 1vw;
+}
+
+.conteudo-favoritos-preco {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5vw;
+    color:#FEC517;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+
+.conteudo-favoritos-roma-imagem {
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 0.5vw 1vw 0vw 0.5vw;
+}
+
+.cor {
+    background-color: #AFCDEA;
+    color: white;
+  }
+  
+  .alinha {
+    text-align: center;
+  }
+  
+  .cor2 {
+    background-color: #FEC517;
+    height: 2vw;
+    align-items: center;
+  }
+  
+  .last {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1vw;
+    color: #f4f1f1;
+    padding-bottom: 0.5vw;
+  }
+  
+  .rodape-icone {
+    height: 2vw;
+  }
+  
+  .texto {
+    font-size: 0.8vw;
+    font-family: 'Nunito', sans-serif;
+    color: #f4f1f1;
+  }
+  
+  .container-fluid {
+    font-size: 0.8vw;
+    font-family: 'Nunito', sans-serif;
+    color: #f4f1f1;
+    padding-top: 0.5vw;
+  }
