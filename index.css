@@ -58,7 +58,6 @@ body::-webkit-scrollbar-thumb {
   height: 2.5vw;
   width: 20vw;
 }
-
 .dropbtn {
   background-color: #AFCDEA;
   height: 6vw;
@@ -73,6 +72,7 @@ body::-webkit-scrollbar-thumb {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 1vw;
 }
 
 .dropdown-content {
@@ -274,6 +274,12 @@ body::-webkit-scrollbar-thumb {
 
 .rodape-icone {
   height: 2vw;
+}
+
+.rodape{
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 
 .texto {

@@ -33,6 +33,8 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 6vw;
   background-color: #AFCDEA;
+  top: 0;
+  position:absolute;
 }
 
 .cabecalho-logo {

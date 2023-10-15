@@ -73,6 +73,7 @@ body::-webkit-scrollbar-thumb {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 1vw;
 }
 
 .dropdown-content {
@@ -170,7 +171,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
     color: #f4f1f1;
-    margin: 10px 65px;
+    margin: 10px 78px;
     cursor: pointer;
     border: none;
     border-radius: 1vw;

@@ -18,7 +18,7 @@
         </div>
         
         <nav class="cabecalho-menu">  
-            <a href="filtro.html"><img class="cabecalho-menu-icone" src="imgs/filtro.png" alt="Filtro"></a>
+            <a href=""><img class="cabecalho-menu-icone" src="imgs/filtro.png" alt="Filtro"></a>
             <a href="favoritos.html"><img class="cabecalho-menu-icone" src="imgs/favoritos.png" alt="Favoritos"></a>
             <a href="login.html"><img class="cabecalho-menu-icone" src="imgs/login.png" alt="Login"></a>
 
@@ -51,7 +51,9 @@
             <br>   
                 <div>
                     <input type="password" name="senha" id="senha" placeholder="Senha" required="Preencha este campo.">
-                
+                    <div id="senha">
+                    <input type="checkbox" id="mostrar" onclick="mostrarOcultarSenha()"><p id="mstext">Mostrar Senha</p>
+                    </div>
                 </div>
             <br>
                 <div>
@@ -64,6 +66,6 @@
         </div>
     </section>
     </div>
-    
+    <script src="cadastro.js"></script>
 </body>
 </html>
